@@ -1,0 +1,51 @@
+
+
+
+.calculator{
+    width: 280px;
+    background-color: black;
+    margin: 1rem 30rem;
+    border-radius: 9px;
+    box-shadow: 3px 10px 10px;
+   
+    
+    
+}
+
+.calculatorbutton
+{
+    width: 16rem;
+   line-height: 72px;
+   margin: 0rem 15px;
+
+}
+.calculatorbutton button
+{
+    width: 59px;
+    border-radius: 50%;
+    height: 59px;
+    text-align: center;
+    font-size: 22px;
+    border: none;
+   
+
+    
+}
+.textarea input
+{
+    height: 9rem;
+    width: 235px;
+    border-radius: 9px;
+    margin: 1rem;
+    text-align: end;
+    font-size: 2rem;
+    border: none;
+    
+    
+}
+
+button:hover
+{
+    cursor: pointer;
+    
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="calculator">
+        <div class="textarea">
+            <input type="text" readonly id="display">
+        </div>
+        <div class="calculatorbutton">
+            <button value="" onclick="clr()">AC</button>
+            <button value="%">%</button>
+            <button value="">&#9003;</button>
+            <button value="/" onclick="op(value)">&#247;</button>
+            <button value="7" onclick="f1(value)">7</button>
+            <button value="8" onclick="f1(value)">8</button>
+            <button value="9" onclick="f1(value)">9</button>
+            <button value="*" onclick="op(value)">&#215;</button>
+            <button value="4" onclick="f1(value)">4</button>
+            <button value="5" onclick="f1(value)">5</button>
+            <button value="6" onclick="f1(value)">6</button>
+            <button value="-" onclick="op(value)">-</button>
+            <button value="1" onclick="f1(value)">1</button>
+            <button value="2" onclick="f1(value)">2</button>
+            <button value="3" onclick="f1(value)">3</button>
+            <button value="+" onclick="op(value)">+</button>
+            <button value="00" onclick="f1(value)">00</button>
+            <button value="0" onclick="f1(value)">0</button>
+            <button value="." onclick="f1(value)">.</button>
+            <button style="background-color: orange;" onclick="calc()">=</button>
+
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
